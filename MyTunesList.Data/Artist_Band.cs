@@ -152,16 +152,10 @@ namespace MyTunesList.Data
 
         [Required]
         public string Name { get; set; }
-
-        //public List<string> Discography { get; set; }
         
         [Required]
         public int FormationYear { get; set; }
 
-        /*public double AverageRating 
-        {
-            get;
-        }*/
 
         [Required]
         public string Location { get; set; }
